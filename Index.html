@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MATEO</title>
+</head>
+<body>
+
+    <h1>McTEO HAMBURGUESAS</h1>
+    <H2>Primera entrega proyecto final</H2>
+    <h5>Termina de configurar tu pedido</h5>
+
+    <form>
+        <input id="nombre" type="text" placeholder="Nombre" />
+        <input id="combo" type="number" placeholder="Qué combo te gustaría agregar al carrito?"/>
+        <button onclick="insertProduct(event)">Agregar</button> 
+    </form>
+
+    <div id=lista>
+    </div>
+
+
+    <div>
+        <h2>Qué producto te gustaría que esté en promo el mes que viene?</h2>
+        <input id= "name" type="text" placeholder="Producto" />
+        <input id= "marca" type="text" placeholder="De qué marca?" />
+    </div>
+
+    <button id=guardar>Guardar</button>
+    <button id=mostrar2>Mostrar</button>
+    
+    <div id=mostrar></div>
+
+    <script src="App.js"></script>
+</body>
+</html>
